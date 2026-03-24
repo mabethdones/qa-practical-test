@@ -34,9 +34,9 @@ describe('SauceDemo Flow', () => {
 
     cy.get('#checkout').click()
 
-    cy.get('#first-name').type('Juan')
+    cy.get('#first-name').type('Jyeohan')
     cy.get('#last-name').type('Dela Cruz')
-    cy.get('#postal-code').type('1000')
+    cy.get('#postal-code').type('1550')
 
     cy.get('#continue').click()
     cy.get('#finish').click()
