@@ -4,7 +4,7 @@ This project demonstrates end-to-end QA automation including UI testing, API tes
 
 ---
 
-## 🧪 Tools Used
+## Tools Used
 
 - Cypress – UI Automation
 - Postman – API Testing
@@ -13,7 +13,7 @@ This project demonstrates end-to-end QA automation including UI testing, API tes
 
 ---
 
-## 🖥️ UI Automation (Cypress)
+## UI Automation (Cypress)
 
 ### Scope:
 Automated key user flows of an e-commerce application.
@@ -31,7 +31,7 @@ Automated key user flows of an e-commerce application.
 
 ---
 
-## 🌐 API Testing (Postman)
+## API Testing (Postman)
 
 ### Implemented Requests
 - Authenticate API client and retrieve access token  
@@ -46,13 +46,13 @@ Automated key user flows of an e-commerce application.
 
 ---
 
-### ⚠️ Issue Encountered
+### Issue Encountered
 
 The **Create Order** and **Get Order** endpoints consistently returned: 401 - Missing Authorization Header
 
 ---
 
-### 🔍 Investigation Performed
+### Investigation Performed
 
 - Verified Bearer Token configuration in Postman  
 - Used Authorization tab with `Bearer {{token}}`  
@@ -62,7 +62,7 @@ The **Create Order** and **Get Order** endpoints consistently returned: 401 - Mi
 
 ---
 
-### 🧠 Conclusion
+### Conclusion
 
 This project uses a **public API (Simple Grocery Store API)**.
 
@@ -75,7 +75,7 @@ This demonstrates a real-world QA scenario where:
 
 ---
 
-## ⚡ Performance Testing (k6)
+## Performance Testing (k6)
 
 ### Objective:
 Simulate load on the Create Order endpoint.
@@ -93,12 +93,12 @@ Simulate load on the Create Order endpoint.
 - Basic checks for responses
 
 ### Results:
-- Response time: 95% under 2 seconds ✅
+- Response time: 95% under 2 seconds
 - Error rate observed (~50%) due to API issues
 
 ---
 
-## 🔄 CI/CD (GitHub Actions)
+## CI/CD (GitHub Actions)
 
 ### Pipeline Includes:
 - Cypress UI tests execution
@@ -109,11 +109,11 @@ Simulate load on the Create Order endpoint.
 - Ensures continuous validation of test scripts
 
 ### Status:
-✅ All workflows passing
+All workflows passing
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 qa-practical-test/
 ├── cypress/
 ├── k6-order-test.js
@@ -123,7 +123,7 @@ qa-practical-test/
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 - Demonstrated full QA workflow from UI to performance testing
 - Implemented automated CI/CD pipeline
@@ -132,7 +132,7 @@ qa-practical-test/
 
 ---
 
-## 🚀 Submission
+## Submission
 
 GitHub Repository:
 https://github.com/mabethdones/qa-practical-test
