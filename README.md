@@ -114,11 +114,11 @@ All workflows passing
 ---
 
 ## Project Structure
-qa-practical-test/
-├── cypress/
-├── k6-order-test.js
-├── .github/workflows/ci-cd.yml
-├── package.json
+qa-candidate-assessment/
+├── .github/workflows/ci-cd.yml                       # GitHub Actions CI/CD workflow
+├── cypress/                                          # Cypress UI tests
+├── k6-order-test.                                    # k6 performance test 
+├── qa-practical-test.postman_collection.json         # Postman collection and test
 └── README.md
 
 ---
